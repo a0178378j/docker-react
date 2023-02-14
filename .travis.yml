@@ -7,4 +7,4 @@ before_install:
 
 
 scripts:
-  - docekr run a0178378j/doceker-react npm run test -- --coverage
+  - docker run a0178378j/docker-react npm run test -- --coverage
