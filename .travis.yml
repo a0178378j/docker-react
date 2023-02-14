@@ -3,8 +3,8 @@ services:
   - docker
 
 before_install:
-  - docker build -t getshalu/docker-react -f Dockerfile.dev .
+  - docker build -t a0178378j/docker-react -f Dockerfile.dev .
 
 
 scripts:
-  - docekr run -e CI=true getshalu/doceker-react npm run test
+  - docekr run -e CI=true a0178378j/doceker-react npm run test
