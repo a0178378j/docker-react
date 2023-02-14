@@ -7,4 +7,4 @@ before_install:
 
 
 scripts:
-  - docekr run -e CI=true a0178378j/doceker-react npm run 
+  - docekr run -e CI=true a0178378j/doceker-react npm run test
