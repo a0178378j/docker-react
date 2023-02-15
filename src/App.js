@@ -3,7 +3,7 @@ import "./App.css";
 import { Component } from "react";
 import { render } from "react-dom";
 
-class App extend Component {
+class App extends Component {
   render(){
     return (
       <div className="App">
